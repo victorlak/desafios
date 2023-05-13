@@ -1,3 +1,77 @@
-h1{
-    background-color: brown;
+body,html{
+    height: 100%;
+    margin: 0;
+}
+.bg{
+    background-image: url(imagemFundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.titulo{
+    background-color: rgba(0, 15, 15, 0.568);
+    width: 100%;
+    font-size: 20pt;
+    text-align: center;
+
+   
+    
+}
+.contatos{
+    background-color: rgb(255, 255, 255);
+    
+    width: 220px;
+    border: 3px solid rgba(243, 247, 247, 0.904);
+    border-radius: 10%;
+    margin-left: 10px;
+    margin-top: 370px;
+    padding: 15px;
+    
+}
+#nome{
+    color: rgb(174, 191, 206);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    ;
+}
+.contatosLetras{
+    color: rgba(18, 19, 19, 0.856);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#email{
+    font-size: larger;
+}
+#numero{
+    font-size: larger;
+}
+.opcoes{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(246, 250, 249, 0.486);
+    border-top: solid rgb(3, 3, 3);
+    margin-top: none;
+    
+    
+}
+.estadia{
+    width: 70px;
+    height: 24px;
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 8%;
+    font-size: 20pt;
+    text-align: center;
+    display:
+}
+.voos{
+    width: 70px;
+    height: 24px;
+    background-color: rgba(172, 17, 17, 0.664);
+    border-radius: 8%;
+    font-size: 20pt;
+    text-align: center;
+}
+p{
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: antiquewhite;
 }
